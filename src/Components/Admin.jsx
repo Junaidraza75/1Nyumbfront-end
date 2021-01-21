@@ -245,7 +245,7 @@ class Admin extends React.Component {
             formData.append('photo', p);
         }) 
 
-        axios.post(`http://localhost:5000/property/add`, formData)
+        axios.post(`http://188.166.148.8:5000/property/add`, formData)
             .then(res => {
                 console.log(res)
                 toast.success('Data Insert Successfully');

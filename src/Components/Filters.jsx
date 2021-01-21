@@ -211,7 +211,7 @@ class Filters extends Component {
             erf_size: erf,
         }
 
-        axios.post(`http://localhost:5000/property/getsearch`, abc)
+        axios.post(`http://188.166.148.8:5000/property/getsearch`, abc)
             .then(res => {
                 console.log(res)
 
